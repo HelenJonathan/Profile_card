@@ -16,15 +16,14 @@ body {
     background-color: hsl(185, 75%, 39%);
     min-width: 100%;
     min-height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-size: cover;
 }
 .card {
-    max-width: 60vh;
+    max-width: 50vh;
     max-height: 30vh;
-    margin: auto;
-    padding-top: 18%;
 }
 .header_section {
     background: url(images/bg-pattern-card.svg);
@@ -98,9 +97,8 @@ a {
 
 @media screen and (min-width: 650px) {
     .card {
-        max-width: 60vh;
+        max-width: 50vh;
         max-height: 20vh;
-        padding-top: 8%;
     }
     .image {
         margin-bottom: -70px;
