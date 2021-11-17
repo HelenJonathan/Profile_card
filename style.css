@@ -22,8 +22,8 @@ body {
     background-size: cover;
 }
 .card {
-    max-width: 50vh;
-    max-height: 30vh;
+    min-width: 60vh;
+    min-height: 30vh;
 }
 .header_section {
     background: url(images/bg-pattern-card.svg);
@@ -97,8 +97,8 @@ a {
 
 @media screen and (min-width: 650px) {
     .card {
-        max-width: 50vh;
-        max-height: 20vh;
+        min-width: 60vh;
+        min-height: 20vh;
     }
     .image {
         margin-bottom: -70px;
