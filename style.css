@@ -22,7 +22,7 @@ body {
     background-size: cover;
 }
 .card {
-    min-width: 60vh;
+    min-width: 50vh;
     min-height: 30vh;
 }
 .header_section {
@@ -97,7 +97,7 @@ a {
 
 @media screen and (min-width: 650px) {
     .card {
-        min-width: 60vh;
+        min-width: 50vh;
         min-height: 20vh;
     }
     .image {
