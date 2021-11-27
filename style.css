@@ -23,6 +23,7 @@ body {
 }
 .card {
     min-width: 40vh;
+    min-height: 60vh;
 }
 .header_section {
     background: url(images/bg-pattern-card.svg);
@@ -99,6 +100,7 @@ a {
 @media screen and (min-width: 650px) {
     .card {
         min-width: 40vh;
+        mmin-height: auto;
     }
     .header_section{
         padding: 10px;
