@@ -23,7 +23,7 @@ body {
 }
 .card {
     min-width: 40vh;
-    min-height: 60vh;
+    min-height: auto;
 }
 .header_section {
     background: url(images/bg-pattern-card.svg);
